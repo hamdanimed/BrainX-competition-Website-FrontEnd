@@ -5426,7 +5426,7 @@ outline:0;
 }
 
 .de-flex-wrap{
-	background: 
+	/* background: ; */
 	display: flex;
 	justify-content: space-between;
 }
@@ -6444,7 +6444,7 @@ transition:.5s;
 }	
 
 .schedule-item>div {
-	float: left;
+	float:right;
 }
 .schedule-item .sc-time {
 	font-weight:bold;
@@ -7682,5 +7682,6 @@ display:table;
 	
 	.grid-item .pf_title{
 		display:none;
+	}
 	}
 	}
