@@ -6914,6 +6914,10 @@ display:table;
 	#mainmenu li a:after{
 	margin-left:15px;
 	}
+
+	.schedule-item .sc-pic,.sc-name{
+		display:none;
+	}
 	
 	}
 
@@ -6929,6 +6933,17 @@ display:table;
 	
 	
 	@media only screen and (max-width: 992px) {
+		.schedule-item .sc-pic,.schedule-item .sc-name{
+			display:none;
+		}
+		
+		/* .schedule-item{
+			padding: 20px !important;
+			 */
+		}
+		.schedule-item .sc-info , .schedule-item .sc-time{
+			padding-top:0 !important;
+		}
 		
 	#menu-btn{
 	display:block;
